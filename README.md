@@ -303,13 +303,6 @@ Implemented:
 - Webhook signature verification
 - Webhook JSON parsing
 
-Not implemented yet:
-
-- Refunds
-- Settlements
-- Payouts
-- Disputes
-
 ## License
 
 MIT. See [LICENSE](LICENSE).
