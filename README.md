@@ -24,13 +24,6 @@ The SDK provides:
 composer require salymdev/moshipay-php
 ```
 
-For local development before publishing to Packagist:
-
-```bash
-composer config repositories.moshipay-php path ../moshipay-php-sdk
-composer require salymdev/moshipay-php:@dev
-```
-
 ## Configuration
 
 Store credentials in environment variables. Do not hard-code API keys, API secrets, or webhook secrets in source code.
