@@ -1,0 +1,37 @@
+{
+    "name": "salymdev/moshipay-php",
+    "description": "Official PHP SDK for integrating merchant systems with the MoshiPay payment gateway.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "moshipay",
+        "payments",
+        "gateway",
+        "mobile-money",
+        "card",
+        "tanzania"
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0 || ^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MoshiPay\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MoshiPay\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
